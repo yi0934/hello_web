@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: go-app-container
-          image: yi0934/go-web
+          image: yi0934/go-web:v1
           resources:
             limits:
               memory: "128Mi"
